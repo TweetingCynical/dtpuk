@@ -37,12 +37,12 @@ header {
   width: 100%;
   box-sizing: border-box;
   display: block;
-  background-color: var(--brandcolor1);
+  background-color: white;
 }
 
 .navbar {
   width: 100%;
-  background: var(--brandcolor1);
+  border-bottom: 5px solid var(--brandcolor1);
   color: white;
   padding: 5px;
   text-align: left;
