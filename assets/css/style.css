@@ -1,6 +1,6 @@
 /* Import Google Fonts */
-@import url("https://fonts.googleapis.com/css?family=Bruno+Ace&display=swap");
-@import url("https://fonts.googleapis.com/css?family=Montserrat&display=swap");
+/* @import url("https://fonts.googleapis.com/css?family=Bruno+Ace&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Montserrat&display=swap"); */
 
 /* Site wide  branding */
 :root {
@@ -9,8 +9,8 @@
   --brandcolor3: #498a9b;
   --brandcolor4: #66b2a1;
   --brandcolor5: #57c0d3;
-  --coreFont: Montserrat;
-  --titleFont: "Bruno Ace";
+  --coreFont: "Montserrat", sans-serif;
+  --titleFont: "Bruno Ace", sans-serif;
 }
 
 * {
