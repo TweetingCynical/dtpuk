@@ -34,12 +34,10 @@ body {
 }
 
 header {
-  width: 100%; /* Ensure the header spans the full width */
-  box-sizing: border-box; /* Includes padding in the width calculation */
-  display: block; /* Make sure it's treated as a block element */
-  background-color: var(
-    --brandcolor1
-  ); /* Set the background color for the header */
+  width: 100%;
+  box-sizing: border-box;
+  display: block;
+  background-color: var(--brandcolor1);
 }
 
 .navbar {
@@ -64,13 +62,13 @@ header {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  padding: 40px;
-  width: 90%;
+  width: 100%;
   max-width: 1200px;
+  min-width: 380px;
 }
 .column {
   flex: 1;
-  padding: 20px;
+  padding: 5px;
   min-width: 300px;
 }
 .logo {
@@ -92,10 +90,11 @@ header {
   padding: 5px;
 }
 
-.body-title {
+h1 {
   font-family: var(--coreFont);
   color: var(--brandcolor1);
   padding: 20px;
+  width: 100%;
 }
 
 .section-title {
